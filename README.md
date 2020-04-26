@@ -5,23 +5,23 @@
 
 ##Cordova turorial BackTrack
 
-1. Always make sure to put study project in Git for access.
-2. clone.
-3. use npm update to update pakages.json
-4. always add the platform to use namely
+- [x] 1. Always make sure to put study project in Git for access.
+- [x] 2. clone.
+- [x] 3. use npm update to update pakages.json
+- [x] 4. always add the platform to use namely
 
 android , ios and browser
 
 command: cordova platform add browser example.
 
-5. to run cordova in browser 
+- [x] 5. to run cordova in browser 
 
 cordova run browser.
 
 always refer to cordova site for new updates.
 
 
-6. install onseui from the developement website
+- [x] 6. install onseui from the developement website
 npm install onsenui --save
 
 
