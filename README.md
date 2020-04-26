@@ -1,10 +1,9 @@
 # Create and familiarize oneself with onsenui
 
 
-OnsenUI Project
+##OnsenUI Project
 
-
-Cordova turorial BackTrack
+##Cordova turorial BackTrack
 
 1. Always make sure to put study project in Git for access.
 2. clone.
