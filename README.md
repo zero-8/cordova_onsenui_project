@@ -1,2 +1,4 @@
-# cordova_onsenui_project
+# Create and familiarize oneself with onsenui
+
+
 OnsenUI Project
