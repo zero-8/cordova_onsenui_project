@@ -17,19 +17,51 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
 
-    <platform name="android">
+    <platform name="browser">
+        <!-- <preference name="SplashScreen" value="/img/logo.png" /> -->
+        <preference name="SplashScreen" value="/img/splashbg.jpeg" />
+        <splash src="/img/splashbg.jpeg" density="land-hdpi"/>
+        <splash src="/img/splashbg.jpeg" density="land-ldpi"/>
+        <splash src="/img/splashbg.jpeg" density="land-mdpi"/>
+        <splash src="/img/splashbg.jpeg" density="land-xhdpi"/>
         
+        <splash src="/img/splashbg.jpeg" density="port-hdpi"/>
+        <splash src="/img/splashbg.jpeg" density="port-ldpi"/>
+        <splash src="/img/splashbg.jpeg" density="port-mdpi"/>
+        <splash src="/img/splashbg.jpeg" density="port-xhdpi"/>
+
+      <!--   <preference name="SplashScreenDelay" value="3000" />
+        <preference name="SplashScreenBackgroundColor" value="green" />
+        <preference name="ShowSplashScreen" value="false" />
+        <preference name="SplashScreenWidth" value="600" />
+        <preference name="SplashScreenHeight" value="300" /> -->
+    </platform>
+
+    <platform name="android">
+
         <allow-intent href="market:*" />
         <!-- you can use any density that exists in the Android project -->
+        <!-- 
         <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
         <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
         <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
         <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>
-
+        
         <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi"/>
         <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>
         <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi"/>
-        <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi"/>
+        <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi"/> 
+        -->
+
+        <splash src="res/splashbg.jpeg" density="land-hdpi"/>
+        <splash src="res/splashbg.jpeg" density="land-ldpi"/>
+        <splash src="res/splashbg.jpeg" density="land-mdpi"/>
+        <splash src="res/splashbg.jpeg" density="land-xhdpi"/>
+        
+        <splash src="res/splashbg.jpeg" density="port-hdpi"/>
+        <splash src="res/splashbg.jpeg" density="port-ldpi"/>
+        <splash src="res/splashbg.jpeg" density="port-mdpi"/>
+        <splash src="res/splashbg.jpeg" density="port-xhdpi"/>
 
     </platform>
 

@@ -15,4 +15,13 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <splash density="land-hdpi" src="/img/splashbg.jpeg" />
+    <splash density="land-ldpi" src="/img/splashbg.jpeg" />
+    <splash density="land-mdpi" src="/img/splashbg.jpeg" />
+    <splash density="land-xhdpi" src="/img/splashbg.jpeg" />
+    <splash density="port-hdpi" src="/img/splashbg.jpeg" />
+    <splash density="port-ldpi" src="/img/splashbg.jpeg" />
+    <splash density="port-mdpi" src="/img/splashbg.jpeg" />
+    <splash density="port-xhdpi" src="/img/splashbg.jpeg" />
+    <preference name="SplashScreen" value="/img/splashbg.jpeg" />
 </widget>
