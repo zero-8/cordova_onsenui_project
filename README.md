@@ -8,6 +8,9 @@
 - [x] 1. Always make sure to put study project in Git for access.
 - [x] 2. clone.
 - [x] 3. use npm update to update pakages.json
+
+`< npm update >`
+
 - [x] 4. always add the platform to use namely
 
 android , ios and browser
