@@ -17,6 +17,11 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
 
+    <!-- <access origin="https://codepush.appcenter.ms" /> -->
+    <!-- <access origin="https://codepush.blob.core.windows.net" /> -->
+    <!-- <access origin="https://codepushupdates.azureedge.net" /> -->
+
+
     <platform name="browser">
         <!-- <preference name="SplashScreen" value="/img/logo.png" /> -->
         <preference name="SplashScreen" value="/img/splashbg.jpeg" />
@@ -40,6 +45,9 @@
     <platform name="android">
 
         <allow-intent href="market:*" />
+
+        <!-- <preference name="CodePushDeploymentKey" value="YOUR-ANDROID-DEPLOYMENT-KEY" /> -->
+
         <!-- you can use any density that exists in the Android project -->
         <!-- 
         <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
@@ -66,6 +74,8 @@
     </platform>
 
     <platform name="ios">
+         <!-- <preference name="CodePushDeploymentKey" value="YOUR-IOS-DEPLOYMENT-KEY" /> -->
+
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
